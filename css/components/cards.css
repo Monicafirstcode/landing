@@ -1,0 +1,23 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  width: 220px;
+  text-align: center;
+  padding: 14px;
+}
+
+.card img {
+  width: 50%;
+  height: 100px;
+}
+
+.card p, h3 {
+  font-size: 16px;
+}
+
